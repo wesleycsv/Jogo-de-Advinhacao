@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --fonteSize: 1.6rem;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-size: var(--fonteSize);
+  background: #396afc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2948ff,
+    #396afc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2948ff,
+    #396afc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body,
+input,
+button {
+  font-family: "Chakra Petch";
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.container {
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 16px;
+  text-align: center;
+  margin-top: -100px;
+}
+.hidden {
+  display: none;
+}
+h1 {
+  text-shadow: 5px 2px 0 #3d29ad;
+}
+h1,
+h2 {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 4rem;
+  color: #fff;
+  margin-top: 40px;
+}
+h2 {
+  font-size: 4rem;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+p {
+  color: #fff;
+  margin: 1rem 0 4rem 0;
+  opacity: 0.9;
+  font-size: 1.8rem;
+}
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input,
+button {
+  padding: 1.6rem;
+  border: none;
+}
+input {
+  width: 103px;
+  height: 103px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: inline-block;
+  margin-bottom: 30px;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ff416c;
+  padding: 1.8rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid transparent;
+  transition: border 0.2s linear;
+}
+button {
+  background: #ff416c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-weight: bold;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px 25px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4b4baf;
+}
