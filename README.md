@@ -4,4 +4,3 @@ Jogo foi desenvolvido para estudo utilizando as tecnologias como **HTML**, **CSS
 
 ![enter image description here](https://github.com/wesleycsv/Jogo-de-Advinhacao/blob/main/print.png?raw=true)
 
-Projeto desenvolvido para fins estudantis.
